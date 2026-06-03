@@ -1,0 +1,1074 @@
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Time,4,13,17]; ]
+using Toybox.Time;
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [ActivityMonitor,5,13,28]; ]
+using Toybox.ActivityMonitor;
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [Time,6,13,17]; @symbol_usingdef<2> = [Gregorian,6,18,27]; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [Math,7,13,17]; ]
+using Toybox.Math;
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 10; @symbol_classdef = [FenixCrossoverView,10,6,24]; @symbol_extends<0> = [WatchUi,10,33,40]; @symbol_extends<1> = [WatchFace,10,41,50]; ]
+class FenixCrossoverView extends WatchUi.WatchFace {
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 10; ]
+    <init> {
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 17 10 ]
+        symbol [ CX %tmp.2 17 20 22 ];
+        %tmp.2 = getv ? :CX;
+        %tmp.3 = 30;
+        %tmp.4 = sub %tmp.2 %tmp.3;
+        putv self :STEPS_X %tmp.4;
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 18 10 ]
+        symbol [ CY %tmp.6 18 20 22 ];
+        %tmp.6 = getv ? :CY;
+        %tmp.7 = 52;
+        %tmp.8 = sub %tmp.6 %tmp.7;
+        putv self :STEPS_Y %tmp.8;
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 20 10 ]
+        symbol [ CX %tmp.10 20 18 20 ];
+        %tmp.10 = getv ? :CX;
+        %tmp.11 = 60;
+        %tmp.12 = sub %tmp.10 %tmp.11;
+        putv self :BAT_X %tmp.12;
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 21 10 ]
+        symbol [ CY %tmp.14 21 18 20 ];
+        %tmp.14 = getv ? :CY;
+        putv self :BAT_Y %tmp.14;
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 23 10 ]
+        symbol [ CX %tmp.16 23 20 22 ];
+        %tmp.16 = getv ? :CX;
+        %tmp.17 = 30;
+        %tmp.18 = sub %tmp.16 %tmp.17;
+        putv self :SOLAR_X %tmp.18;
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 24 10 ]
+        symbol [ CY %tmp.20 24 20 22 ];
+        %tmp.20 = getv ? :CY;
+        %tmp.21 = 52;
+        %tmp.22 = add %tmp.20 %tmp.21;
+        putv self :SOLAR_Y %tmp.22;
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 12; @position = 10; @symbol_constdef = [CX,12,10,12]; ]
+    const CX = 88;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 13; @position = 10; @symbol_constdef = [CY,13,10,12]; ]
+    const CY = 88;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 15; @position = 10; @symbol_constdef = [RING_RADIUS,15,10,21]; ]
+    const RING_RADIUS = 26;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 17; @position = 10; @symbol_constdef = [STEPS_X,17,10,17]; ]
+    const STEPS_X;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 18; @position = 10; @symbol_constdef = [STEPS_Y,18,10,17]; ]
+    const STEPS_Y;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 20; @position = 10; @symbol_constdef = [BAT_X,20,10,15]; ]
+    const BAT_X;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 21; @position = 10; @symbol_constdef = [BAT_Y,21,10,15]; ]
+    const BAT_Y;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 23; @position = 10; @symbol_constdef = [SOLAR_X,23,10,17]; ]
+    const SOLAR_X;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 24; @position = 10; @symbol_constdef = [SOLAR_Y,24,10,17]; ]
+    const SOLAR_Y;
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 26; @symbol_functiondef = [initialize,26,13,23]; ]
+    function initialize() as Void {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_26_26_28_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 27 8 ]
+        symbol [ WatchFace %tmp.2 27 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 27 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_26_26_28_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 30; @symbol_functiondef = [onLayout,30,13,21]; @symbol_param<0> = [dc,30,22,24]; ]
+    function onLayout(dc) {
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 33; @symbol_functiondef = [onUpdate,33,13,21]; @symbol_param<0> = [dc,33,22,24]; ]
+    function onUpdate(dc) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_33_26_52_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 35 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 35 8 10 ];
+        symbol [ setColor %tmp.2 35 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 36 12 20 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.4 36 21 32 ];
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        symbol [ Graphics %tmp.5 37 12 20 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 37 21 32 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 40 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 40 8 10 ];
+        symbol [ clear %tmp.8 40 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 42 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_33_26_52_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_33_26_52_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 42 12 15 ];
+        symbol [ System %tmp.9 42 18 24 ];
+        %tmp.9 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.10 42 25 37 ];
+        %tmp.10 = getv function %tmp.9 :getClockTime;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        lputv %now.1 %tmp.11;
+        symbol [ now %now.1 42 12 15 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 44 8 ]
+        %tmp.12 = self;
+        symbol [ drawSteps %tmp.13 44 8 17 ];
+        %tmp.13 = getv function %tmp.12 :drawSteps;
+        %tmp.14 = lgetv %dc;
+        symbol [ dc %tmp.14 44 18 20 ];
+        invoke %tmp.12 %tmp.13(%tmp.14);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 45 8 ]
+        %tmp.15 = self;
+        symbol [ drawBattery %tmp.16 45 8 19 ];
+        %tmp.16 = getv function %tmp.15 :drawBattery;
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 45 20 22 ];
+        invoke %tmp.15 %tmp.16(%tmp.17);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 46 8 ]
+        %tmp.18 = self;
+        symbol [ drawSolar %tmp.19 46 8 17 ];
+        %tmp.19 = getv function %tmp.18 :drawSolar;
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 46 18 20 ];
+        invoke %tmp.18 %tmp.19(%tmp.20);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 48 8 ]
+        %tmp.21 = self;
+        symbol [ drawSunEvent %tmp.22 48 8 20 ];
+        %tmp.22 = getv function %tmp.21 :drawSunEvent;
+        %tmp.23 = lgetv %dc;
+        symbol [ dc %tmp.23 48 21 23 ];
+        invoke %tmp.21 %tmp.22(%tmp.23);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 49 8 ]
+        %tmp.24 = self;
+        symbol [ drawTime %tmp.25 49 8 16 ];
+        %tmp.25 = getv function %tmp.24 :drawTime;
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 49 17 19 ];
+        %tmp.27 = lgetv %now.1;
+        symbol [ now %tmp.27 49 21 24 ];
+        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.27);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 50 8 ]
+        %tmp.28 = self;
+        symbol [ drawDate %tmp.29 50 8 16 ];
+        %tmp.29 = getv function %tmp.28 :drawDate;
+        %tmp.30 = lgetv %dc;
+        symbol [ dc %tmp.30 50 17 19 ];
+        invoke %tmp.28 %tmp.29(%tmp.30);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_33_26_52_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 54; @symbol_functiondef = [drawSteps,54,13,22]; @symbol_param<0> = [dc,54,23,25]; ]
+    function drawSteps(dc) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 56 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_stop" ]
+        %info.1 = local;
+        symbol [ info %info.1 56 12 16 ];
+        symbol [ ActivityMonitor %tmp.1 56 19 34 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.2 56 35 42 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+        symbol [ info %info.1 56 12 16 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 58 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_stop" ]
+        %steps.2 = local;
+        symbol [ steps %steps.2 58 12 17 ];
+        %tmp.4 = lgetv %info.1;
+        symbol [ info %tmp.4 58 20 24 ];
+        symbol [ steps %tmp.5 58 25 30 ];
+        %tmp.5 = getv %tmp.4 :steps;
+        lputv %steps.2 %tmp.5;
+        symbol [ steps %steps.2 58 12 17 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 60 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_stop" ]
+        %goal.3 = local;
+        symbol [ goal %goal.3 60 12 16 ];
+        %tmp.6 = 8260;
+        lputv %goal.3 %tmp.6;
+        symbol [ goal %goal.3 60 12 16 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 62 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_stop" ]
+        %progress.4 = local;
+        symbol [ progress %progress.4 62 12 20 ];
+        %tmp.7 = lgetv %steps.2;
+        symbol [ steps %tmp.7 62 23 28 ];
+        symbol [ toFloat %tmp.8 62 29 36 ];
+        %tmp.8 = getv function %tmp.7 :toFloat;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = lgetv %goal.3;
+        symbol [ goal %tmp.10 62 41 45 ];
+        %tmp.11 = div %tmp.9 %tmp.10;
+        lputv %progress.4 %tmp.11;
+        symbol [ progress %progress.4 62 12 20 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 64 8 ]
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_64_8_66_8_if_stmt:
+        %tmp.12 = lgetv %progress.4;
+        symbol [ progress %tmp.12 64 12 20 ];
+        %tmp.13 = 1.0;
+        %tmp.14 = gt %tmp.12 %tmp.13;
+        bf %tmp.14 @C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_64_8_66_8_if_end;
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_64_8_66_8_if_true:
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_64_28_66_8_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 65 12 ]
+        %tmp.15 = 1.0;
+        lputv %progress.4 %tmp.15;
+        symbol [ progress %progress.4 65 12 20 ];
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_64_28_66_8_stop:
+        goto @C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_64_8_66_8_if_end;
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_64_8_66_8_if_end:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 68 8 ]
+        %tmp.16 = self;
+        symbol [ drawRing %tmp.17 68 8 16 ];
+        %tmp.17 = getv function %tmp.16 :drawRing;
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 69 12 14 ];
+        symbol [ STEPS_X %tmp.20 70 12 19 ];
+        %tmp.20 = getv ? :STEPS_X;
+        symbol [ STEPS_Y %tmp.22 71 12 19 ];
+        %tmp.22 = getv ? :STEPS_Y;
+        %tmp.23 = lgetv %progress.4;
+        symbol [ progress %tmp.23 72 12 20 ];
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.20, %tmp.22, %tmp.23);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 75 8 ]
+        %tmp.24 = self;
+        symbol [ drawStepsIcon %tmp.25 75 8 21 ];
+        %tmp.25 = getv function %tmp.24 :drawStepsIcon;
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 75 22 24 ];
+        symbol [ STEPS_X %tmp.28 75 26 33 ];
+        %tmp.28 = getv ? :STEPS_X;
+        symbol [ STEPS_Y %tmp.30 75 35 42 ];
+        %tmp.30 = getv ? :STEPS_Y;
+        %tmp.31 = 8;
+        %tmp.32 = sub %tmp.30 %tmp.31;
+        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.28, %tmp.32);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_54_27_84_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 86; @symbol_functiondef = [drawBattery,86,13,24]; @symbol_param<0> = [dc,86,25,27]; ]
+    function drawBattery(dc) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_86_29_108_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 88 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_86_29_108_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_86_29_108_4_stop" ]
+        %battery.1 = local;
+        symbol [ battery %battery.1 88 12 19 ];
+        symbol [ System %tmp.1 88 22 28 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getSystemStats %tmp.2 88 29 43 ];
+        %tmp.2 = getv function %tmp.1 :getSystemStats;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ battery %tmp.4 88 46 53 ];
+        %tmp.4 = getv %tmp.3 :battery;
+        lputv %battery.1 %tmp.4;
+        symbol [ battery %battery.1 88 12 19 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 90 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_86_29_108_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_86_29_108_4_stop" ]
+        %progress.2 = local;
+        symbol [ progress %progress.2 90 12 20 ];
+        %tmp.5 = lgetv %battery.1;
+        symbol [ battery %tmp.5 90 23 30 ];
+        symbol [ toFloat %tmp.6 90 31 38 ];
+        %tmp.6 = getv function %tmp.5 :toFloat;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = 100;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        lputv %progress.2 %tmp.9;
+        symbol [ progress %progress.2 90 12 20 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 92 8 ]
+        %tmp.10 = self;
+        symbol [ drawRing %tmp.11 92 8 16 ];
+        %tmp.11 = getv function %tmp.10 :drawRing;
+        %tmp.12 = lgetv %dc;
+        symbol [ dc %tmp.12 93 12 14 ];
+        symbol [ BAT_X %tmp.14 94 12 17 ];
+        %tmp.14 = getv ? :BAT_X;
+        symbol [ BAT_Y %tmp.16 95 12 17 ];
+        %tmp.16 = getv ? :BAT_Y;
+        %tmp.17 = lgetv %progress.2;
+        symbol [ progress %tmp.17 96 12 20 ];
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.14, %tmp.16, %tmp.17);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 99 8 ]
+        %tmp.18 = self;
+        symbol [ drawBatteryIcon %tmp.19 99 8 23 ];
+        %tmp.19 = getv function %tmp.18 :drawBatteryIcon;
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 99 24 26 ];
+        symbol [ BAT_X %tmp.22 99 28 33 ];
+        %tmp.22 = getv ? :BAT_X;
+        symbol [ BAT_Y %tmp.24 99 35 40 ];
+        %tmp.24 = getv ? :BAT_Y;
+        %tmp.25 = 8;
+        %tmp.26 = sub %tmp.24 %tmp.25;
+        invoke %tmp.18 %tmp.19(%tmp.20, %tmp.22, %tmp.26);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 101 8 ]
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 101 8 10 ];
+        symbol [ drawText %tmp.28 101 11 19 ];
+        %tmp.28 = getv function %tmp.27 :drawText;
+        symbol [ BAT_X %tmp.30 102 12 17 ];
+        %tmp.30 = getv ? :BAT_X;
+        symbol [ BAT_Y %tmp.32 103 12 17 ];
+        %tmp.32 = getv ? :BAT_Y;
+        %tmp.33 = 6;
+        %tmp.34 = add %tmp.32 %tmp.33;
+        symbol [ Graphics %tmp.35 104 12 20 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.36 104 21 31 ];
+        %tmp.36 = getv %tmp.35 :FONT_XTINY;
+        %tmp.37 = lgetv %battery.1;
+        symbol [ battery %tmp.37 105 12 19 ];
+        symbol [ toString %tmp.38 105 20 28 ];
+        %tmp.38 = getv function %tmp.37 :toString;
+        %tmp.39 = invoke %tmp.37 %tmp.38();
+        symbol [ Graphics %tmp.40 106 12 20 ];
+        %tmp.40 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.41 106 21 40 ];
+        %tmp.41 = getv %tmp.40 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.27 %tmp.28(%tmp.30, %tmp.34, %tmp.36, %tmp.39, %tmp.41);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_86_29_108_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 110; @symbol_functiondef = [drawSolar,110,13,22]; @symbol_param<0> = [dc,110,23,25]; ]
+    function drawSolar(dc) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_110_27_132_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 114 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_110_27_132_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_110_27_132_4_stop" ]
+        %solar.1 = local;
+        symbol [ solar %solar.1 114 12 17 ];
+        %tmp.1 = 75;
+        lputv %solar.1 %tmp.1;
+        symbol [ solar %solar.1 114 12 17 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 116 8 ]
+        %tmp.2 = self;
+        symbol [ drawRing %tmp.3 116 8 16 ];
+        %tmp.3 = getv function %tmp.2 :drawRing;
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 117 12 14 ];
+        symbol [ SOLAR_X %tmp.6 118 12 19 ];
+        %tmp.6 = getv ? :SOLAR_X;
+        symbol [ SOLAR_Y %tmp.8 119 12 19 ];
+        %tmp.8 = getv ? :SOLAR_Y;
+        %tmp.9 = lgetv %solar.1;
+        symbol [ solar %tmp.9 120 12 17 ];
+        %tmp.10 = 100.0;
+        %tmp.11 = div %tmp.9 %tmp.10;
+        invoke %tmp.2 %tmp.3(%tmp.4, %tmp.6, %tmp.8, %tmp.11);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 123 8 ]
+        %tmp.12 = self;
+        symbol [ drawSolarIcon %tmp.13 123 8 21 ];
+        %tmp.13 = getv function %tmp.12 :drawSolarIcon;
+        %tmp.14 = lgetv %dc;
+        symbol [ dc %tmp.14 123 22 24 ];
+        symbol [ SOLAR_X %tmp.16 123 26 33 ];
+        %tmp.16 = getv ? :SOLAR_X;
+        symbol [ SOLAR_Y %tmp.18 123 35 42 ];
+        %tmp.18 = getv ? :SOLAR_Y;
+        %tmp.19 = 8;
+        %tmp.20 = sub %tmp.18 %tmp.19;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.16, %tmp.20);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 125 8 ]
+        %tmp.21 = lgetv %dc;
+        symbol [ dc %tmp.21 125 8 10 ];
+        symbol [ drawText %tmp.22 125 11 19 ];
+        %tmp.22 = getv function %tmp.21 :drawText;
+        symbol [ SOLAR_X %tmp.24 126 12 19 ];
+        %tmp.24 = getv ? :SOLAR_X;
+        symbol [ SOLAR_Y %tmp.26 127 12 19 ];
+        %tmp.26 = getv ? :SOLAR_Y;
+        %tmp.27 = 6;
+        %tmp.28 = add %tmp.26 %tmp.27;
+        symbol [ Graphics %tmp.29 128 12 20 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.30 128 21 31 ];
+        %tmp.30 = getv %tmp.29 :FONT_XTINY;
+        %tmp.31 = lgetv %solar.1;
+        symbol [ solar %tmp.31 129 12 17 ];
+        symbol [ toString %tmp.32 129 18 26 ];
+        %tmp.32 = getv function %tmp.31 :toString;
+        %tmp.33 = invoke %tmp.31 %tmp.32();
+        symbol [ Graphics %tmp.34 130 12 20 ];
+        %tmp.34 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.35 130 21 40 ];
+        %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.21 %tmp.22(%tmp.24, %tmp.28, %tmp.30, %tmp.33, %tmp.35);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_110_27_132_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 134; @symbol_functiondef = [drawTime,134,13,21]; @symbol_param<0> = [dc,134,22,24]; @symbol_param<1> = [now,134,26,29]; ]
+    function drawTime(dc, now) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 136 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_stop" ]
+        %hh.1 = local;
+        symbol [ hh %hh.1 136 12 14 ];
+        %tmp.1 = lgetv %now;
+        symbol [ now %tmp.1 136 17 20 ];
+        symbol [ hour %tmp.2 136 21 25 ];
+        %tmp.2 = getv %tmp.1 :hour;
+        symbol [ format %tmp.3 136 26 32 ];
+        %tmp.3 = getv function %tmp.2 :format;
+        %tmp.4 = "%02d";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        lputv %hh.1 %tmp.5;
+        symbol [ hh %hh.1 136 12 14 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 137 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_stop" ]
+        %mm.2 = local;
+        symbol [ mm %mm.2 137 12 14 ];
+        %tmp.6 = lgetv %now;
+        symbol [ now %tmp.6 137 17 20 ];
+        symbol [ min %tmp.7 137 21 24 ];
+        %tmp.7 = getv %tmp.6 :min;
+        symbol [ format %tmp.8 137 25 31 ];
+        %tmp.8 = getv function %tmp.7 :format;
+        %tmp.9 = "%02d";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        lputv %mm.2 %tmp.10;
+        symbol [ mm %mm.2 137 12 14 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 139 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_stop" ]
+        %txt.3 = local;
+        symbol [ txt %txt.3 139 12 15 ];
+        %tmp.11 = lgetv %hh.1;
+        symbol [ hh %tmp.11 139 18 20 ];
+        %tmp.12 = ":";
+        %tmp.13 = add %tmp.11 %tmp.12;
+        %tmp.14 = lgetv %mm.2;
+        symbol [ mm %tmp.14 139 29 31 ];
+        %tmp.15 = add %tmp.13 %tmp.14;
+        lputv %txt.3 %tmp.15;
+        symbol [ txt %txt.3 139 12 15 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 141 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 141 8 10 ];
+        symbol [ drawText %tmp.17 141 11 19 ];
+        %tmp.17 = getv function %tmp.16 :drawText;
+        symbol [ CX %tmp.19 142 12 14 ];
+        %tmp.19 = getv ? :CX;
+        %tmp.20 = 34;
+        %tmp.21 = add %tmp.19 %tmp.20;
+        symbol [ CY %tmp.23 143 12 14 ];
+        %tmp.23 = getv ? :CY;
+        %tmp.24 = 6;
+        %tmp.25 = sub %tmp.23 %tmp.24;
+        symbol [ Graphics %tmp.26 144 12 20 ];
+        %tmp.26 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_MEDIUM %tmp.27 144 21 39 ];
+        %tmp.27 = getv %tmp.26 :FONT_NUMBER_MEDIUM;
+        %tmp.28 = lgetv %txt.3;
+        symbol [ txt %tmp.28 145 12 15 ];
+        symbol [ Graphics %tmp.29 146 12 20 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.30 146 21 40 ];
+        %tmp.30 = getv %tmp.29 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.16 %tmp.17(%tmp.21, %tmp.25, %tmp.27, %tmp.28, %tmp.30);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_134_31_148_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 150; @symbol_functiondef = [drawDate,150,13,21]; @symbol_param<0> = [dc,150,22,24]; ]
+    function drawDate(dc) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 152 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_stop" ]
+        %m.1 = local;
+        symbol [ m %m.1 152 12 13 ];
+        symbol [ Gregorian %tmp.1 152 16 25 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 152 26 30 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 153 12 16 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 153 17 20 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 154 12 16 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.7 154 17 29 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_SHORT;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %m.1 %tmp.8;
+        symbol [ m %m.1 152 12 13 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 157 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_stop" ]
+        %months.2 = local;
+        symbol [ months %months.2 157 12 18 ];
+        %tmp.9 = newa 12;
+        %tmp.10 = "JAN";
+        %tmp.11 = dup %tmp.9;
+        %tmp.12 = aputv %tmp.11 0 %tmp.10;
+        %tmp.13 = "FEB";
+        %tmp.14 = dup %tmp.12;
+        %tmp.15 = aputv %tmp.14 1 %tmp.13;
+        %tmp.16 = "MAR";
+        %tmp.17 = dup %tmp.15;
+        %tmp.18 = aputv %tmp.17 2 %tmp.16;
+        %tmp.19 = "APR";
+        %tmp.20 = dup %tmp.18;
+        %tmp.21 = aputv %tmp.20 3 %tmp.19;
+        %tmp.22 = "MAY";
+        %tmp.23 = dup %tmp.21;
+        %tmp.24 = aputv %tmp.23 4 %tmp.22;
+        %tmp.25 = "JUN";
+        %tmp.26 = dup %tmp.24;
+        %tmp.27 = aputv %tmp.26 5 %tmp.25;
+        %tmp.28 = "JUL";
+        %tmp.29 = dup %tmp.27;
+        %tmp.30 = aputv %tmp.29 6 %tmp.28;
+        %tmp.31 = "AUG";
+        %tmp.32 = dup %tmp.30;
+        %tmp.33 = aputv %tmp.32 7 %tmp.31;
+        %tmp.34 = "SEP";
+        %tmp.35 = dup %tmp.33;
+        %tmp.36 = aputv %tmp.35 8 %tmp.34;
+        %tmp.37 = "OCT";
+        %tmp.38 = dup %tmp.36;
+        %tmp.39 = aputv %tmp.38 9 %tmp.37;
+        %tmp.40 = "NOV";
+        %tmp.41 = dup %tmp.39;
+        %tmp.42 = aputv %tmp.41 10 %tmp.40;
+        %tmp.43 = "DEC";
+        %tmp.44 = dup %tmp.42;
+        %tmp.45 = aputv %tmp.44 11 %tmp.43;
+        lputv %months.2 %tmp.45;
+        symbol [ months %months.2 157 12 18 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 164 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_stop" ]
+        %txt.3 = local;
+        symbol [ txt %txt.3 164 12 15 ];
+        %tmp.46 = lgetv %months.2;
+        symbol [ months %tmp.46 165 12 18 ];
+        %tmp.47 = lgetv %m.1;
+        symbol [ m %tmp.47 165 19 20 ];
+        symbol [ month %tmp.48 165 21 26 ];
+        %tmp.48 = getv %tmp.47 :month;
+        %tmp.49 = 1;
+        %tmp.50 = sub %tmp.48 %tmp.49;
+        %tmp.51 = agetv %tmp.46 %tmp.50;
+        %tmp.52 = " ";
+        %tmp.53 = add %tmp.51 %tmp.52;
+        %tmp.54 = lgetv %m.1;
+        symbol [ m %tmp.54 167 12 13 ];
+        symbol [ day %tmp.55 167 14 17 ];
+        %tmp.55 = getv %tmp.54 :day;
+        symbol [ toString %tmp.56 167 18 26 ];
+        %tmp.56 = getv function %tmp.55 :toString;
+        %tmp.57 = invoke %tmp.55 %tmp.56();
+        %tmp.58 = add %tmp.53 %tmp.57;
+        lputv %txt.3 %tmp.58;
+        symbol [ txt %txt.3 164 12 15 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 169 8 ]
+        %tmp.59 = lgetv %dc;
+        symbol [ dc %tmp.59 169 8 10 ];
+        symbol [ drawText %tmp.60 169 11 19 ];
+        %tmp.60 = getv function %tmp.59 :drawText;
+        symbol [ CX %tmp.62 170 12 14 ];
+        %tmp.62 = getv ? :CX;
+        %tmp.63 = 34;
+        %tmp.64 = add %tmp.62 %tmp.63;
+        symbol [ CY %tmp.66 171 12 14 ];
+        %tmp.66 = getv ? :CY;
+        %tmp.67 = 24;
+        %tmp.68 = add %tmp.66 %tmp.67;
+        symbol [ Graphics %tmp.69 172 12 20 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.70 172 21 31 ];
+        %tmp.70 = getv %tmp.69 :FONT_SMALL;
+        %tmp.71 = lgetv %txt.3;
+        symbol [ txt %tmp.71 173 12 15 ];
+        symbol [ Graphics %tmp.72 174 12 20 ];
+        %tmp.72 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.73 174 21 40 ];
+        %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.59 %tmp.60(%tmp.64, %tmp.68, %tmp.70, %tmp.71, %tmp.73);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_150_26_176_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 178; @symbol_functiondef = [drawSunEvent,178,13,25]; @symbol_param<0> = [dc,178,26,28]; ]
+    function drawSunEvent(dc) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_178_30_193_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 180 8 ]
+        %tmp.1 = self;
+        symbol [ drawSunIcon %tmp.2 180 8 19 ];
+        %tmp.2 = getv function %tmp.1 :drawSunIcon;
+        %tmp.3 = lgetv %dc;
+        symbol [ dc %tmp.3 181 12 14 ];
+        symbol [ CX %tmp.5 182 12 14 ];
+        %tmp.5 = getv ? :CX;
+        %tmp.6 = 10;
+        %tmp.7 = add %tmp.5 %tmp.6;
+        symbol [ CY %tmp.9 183 12 14 ];
+        %tmp.9 = getv ? :CY;
+        %tmp.10 = 48;
+        %tmp.11 = sub %tmp.9 %tmp.10;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.7, %tmp.11);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 186 8 ]
+        %tmp.12 = lgetv %dc;
+        symbol [ dc %tmp.12 186 8 10 ];
+        symbol [ drawText %tmp.13 186 11 19 ];
+        %tmp.13 = getv function %tmp.12 :drawText;
+        symbol [ CX %tmp.15 187 12 14 ];
+        %tmp.15 = getv ? :CX;
+        %tmp.16 = 40;
+        %tmp.17 = add %tmp.15 %tmp.16;
+        symbol [ CY %tmp.19 188 12 14 ];
+        %tmp.19 = getv ? :CY;
+        %tmp.20 = 48;
+        %tmp.21 = sub %tmp.19 %tmp.20;
+        symbol [ Graphics %tmp.22 189 12 20 ];
+        %tmp.22 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.23 189 21 31 ];
+        %tmp.23 = getv %tmp.22 :FONT_SMALL;
+        %tmp.24 = "20:52";
+        symbol [ Graphics %tmp.25 191 12 20 ];
+        %tmp.25 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.26 191 21 40 ];
+        %tmp.26 = getv %tmp.25 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.12 %tmp.13(%tmp.17, %tmp.21, %tmp.23, %tmp.24, %tmp.26);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_178_30_193_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 195; @symbol_functiondef = [drawRing,195,13,21]; @symbol_param<0> = [dc,195,22,24]; @symbol_param<1> = [x,195,26,27]; @symbol_param<2> = [y,195,29,30]; @symbol_param<3> = [progress,195,32,40]; ]
+    function drawRing(dc, x, y, progress) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_195_42_230_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 197 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 197 8 10 ];
+        symbol [ drawCircle %tmp.2 197 11 21 ];
+        %tmp.2 = getv function %tmp.1 :drawCircle;
+        %tmp.3 = lgetv %x;
+        symbol [ x %tmp.3 198 12 13 ];
+        %tmp.4 = lgetv %y;
+        symbol [ y %tmp.4 199 12 13 ];
+        symbol [ RING_RADIUS %tmp.6 200 12 23 ];
+        %tmp.6 = getv ? :RING_RADIUS;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.6);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 203 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_195_42_230_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_195_42_230_4_stop" ]
+        %segments.1 = local;
+        symbol [ segments %segments.1 203 12 20 ];
+        %tmp.7 = 24;
+        lputv %segments.1 %tmp.7;
+        symbol [ segments %segments.1 203 12 20 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 205 8 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_195_42_230_4_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_195_42_230_4_stop" ]
+        %active.2 = local;
+        symbol [ active %active.2 205 12 18 ];
+        %tmp.8 = lgetv %segments.1;
+        symbol [ segments %tmp.8 206 13 21 ];
+        %tmp.9 = lgetv %progress;
+        symbol [ progress %tmp.9 206 24 32 ];
+        %tmp.10 = mul %tmp.8 %tmp.9;
+        symbol [ toNumber %tmp.11 206 34 42 ];
+        %tmp.11 = getv function %tmp.10 :toNumber;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        lputv %active.2 %tmp.12;
+        symbol [ active %active.2 205 12 18 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 208 8 ]
+        for @C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_test @C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_incr @C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_end;
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_init:
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_begin" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_end" ]
+        %i.3 = local;
+        symbol [ i %i.3 208 17 18 ];
+        %tmp.13 = 0;
+        lputv %i.3 %tmp.13;
+        symbol [ i %i.3 208 17 18 ];
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_test:
+        %tmp.14 = lgetv %i.3;
+        symbol [ i %tmp.14 208 24 25 ];
+        %tmp.15 = lgetv %active.2;
+        symbol [ active %tmp.15 208 28 34 ];
+        %tmp.16 = lt %tmp.14 %tmp.15;
+        bf %tmp.16 @C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_end;
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_begin:
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 210 12 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_stop" ]
+        %angle.4 = local;
+        symbol [ angle %angle.4 210 16 21 ];
+        %tmp.17 = 2.0;
+        symbol [ Math %tmp.18 211 23 27 ];
+        %tmp.18 = getm $.Toybox.Math;
+        symbol [ PI %tmp.19 211 28 30 ];
+        %tmp.19 = getv %tmp.18 :PI;
+        %tmp.20 = mul %tmp.17 %tmp.19;
+        %tmp.21 = lgetv %i.3;
+        symbol [ i %tmp.21 211 33 34 ];
+        %tmp.22 = mul %tmp.20 %tmp.21;
+        %tmp.23 = lgetv %segments.1;
+        symbol [ segments %tmp.23 212 18 26 ];
+        %tmp.24 = div %tmp.22 %tmp.23;
+        lputv %angle.4 %tmp.24;
+        symbol [ angle %angle.4 210 16 21 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 214 12 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_stop" ]
+        %px.5 = local;
+        symbol [ px %px.5 214 16 18 ];
+        %tmp.25 = lgetv %x;
+        symbol [ x %tmp.25 215 16 17 ];
+        symbol [ RING_RADIUS %tmp.27 216 18 29 ];
+        %tmp.27 = getv ? :RING_RADIUS;
+        %tmp.28 = 2;
+        %tmp.29 = sub %tmp.27 %tmp.28;
+        symbol [ Math %tmp.30 217 18 22 ];
+        %tmp.30 = getm $.Toybox.Math;
+        symbol [ sin %tmp.31 217 23 26 ];
+        %tmp.31 = getv function %tmp.30 :sin;
+        %tmp.32 = lgetv %angle.4;
+        symbol [ angle %tmp.32 217 27 32 ];
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        %tmp.34 = mul %tmp.29 %tmp.33;
+        %tmp.35 = add %tmp.25 %tmp.34;
+        lputv %px.5 %tmp.35;
+        symbol [ px %px.5 214 16 18 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 219 12 ]
+        [ "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_start" "C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_stop" ]
+        %py.6 = local;
+        symbol [ py %py.6 219 16 18 ];
+        %tmp.36 = lgetv %y;
+        symbol [ y %tmp.36 220 16 17 ];
+        symbol [ RING_RADIUS %tmp.38 221 18 29 ];
+        %tmp.38 = getv ? :RING_RADIUS;
+        %tmp.39 = 2;
+        %tmp.40 = sub %tmp.38 %tmp.39;
+        symbol [ Math %tmp.41 222 18 22 ];
+        %tmp.41 = getm $.Toybox.Math;
+        symbol [ cos %tmp.42 222 23 26 ];
+        %tmp.42 = getv function %tmp.41 :cos;
+        %tmp.43 = lgetv %angle.4;
+        symbol [ angle %tmp.43 222 27 32 ];
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        %tmp.45 = mul %tmp.40 %tmp.44;
+        %tmp.46 = sub %tmp.36 %tmp.45;
+        lputv %py.6 %tmp.46;
+        symbol [ py %py.6 219 16 18 ];
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 224 12 ]
+        %tmp.47 = lgetv %dc;
+        symbol [ dc %tmp.47 224 12 14 ];
+        symbol [ fillCircle %tmp.48 224 15 25 ];
+        %tmp.48 = getv function %tmp.47 :fillCircle;
+        %tmp.49 = lgetv %px.5;
+        symbol [ px %tmp.49 225 16 18 ];
+        %tmp.50 = lgetv %py.6;
+        symbol [ py %tmp.50 226 16 18 ];
+        %tmp.51 = 2;
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.50, %tmp.51);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_41_229_8_stop:
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_incr:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 208 ]
+        %tmp.54 = lgetv %i.3;
+        symbol [ i %tmp.54 208 36 37 ];
+        %tmp.55 = add %tmp.54 1;
+        lputv %i.3 %tmp.55;
+        symbol [ i %i.3 208 36 37 ];
+        goto @C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_test;
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_208_8_229_8_for_end:
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_195_42_230_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 232; @symbol_functiondef = [drawStepsIcon,232,13,26]; @symbol_param<0> = [dc,232,27,29]; @symbol_param<1> = [x,232,31,32]; @symbol_param<2> = [y,232,34,35]; ]
+    function drawStepsIcon(dc, x, y) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_232_37_250_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 234 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 234 8 10 ];
+        symbol [ fillCircle %tmp.2 234 11 21 ];
+        %tmp.2 = getv function %tmp.1 :fillCircle;
+        %tmp.3 = lgetv %x;
+        symbol [ x %tmp.3 234 22 23 ];
+        %tmp.4 = 3;
+        %tmp.5 = sub %tmp.3 %tmp.4;
+        %tmp.6 = lgetv %y;
+        symbol [ y %tmp.6 234 29 30 ];
+        %tmp.7 = 1;
+        invoke %tmp.1 %tmp.2(%tmp.5, %tmp.6, %tmp.7);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 235 8 ]
+        %tmp.8 = lgetv %dc;
+        symbol [ dc %tmp.8 235 8 10 ];
+        symbol [ fillCircle %tmp.9 235 11 21 ];
+        %tmp.9 = getv function %tmp.8 :fillCircle;
+        %tmp.10 = lgetv %x;
+        symbol [ x %tmp.10 235 22 23 ];
+        %tmp.11 = 2;
+        %tmp.12 = add %tmp.10 %tmp.11;
+        %tmp.13 = lgetv %y;
+        symbol [ y %tmp.13 235 29 30 ];
+        %tmp.14 = 2;
+        %tmp.15 = add %tmp.13 %tmp.14;
+        %tmp.16 = 1;
+        invoke %tmp.8 %tmp.9(%tmp.12, %tmp.15, %tmp.16);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 237 8 ]
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 237 8 10 ];
+        symbol [ drawLine %tmp.18 237 11 19 ];
+        %tmp.18 = getv function %tmp.17 :drawLine;
+        %tmp.19 = lgetv %x;
+        symbol [ x %tmp.19 238 12 13 ];
+        %tmp.20 = 3;
+        %tmp.21 = sub %tmp.19 %tmp.20;
+        %tmp.22 = lgetv %y;
+        symbol [ y %tmp.22 239 12 13 ];
+        %tmp.23 = 1;
+        %tmp.24 = add %tmp.22 %tmp.23;
+        %tmp.25 = lgetv %x;
+        symbol [ x %tmp.25 240 12 13 ];
+        %tmp.26 = 1;
+        %tmp.27 = sub %tmp.25 %tmp.26;
+        %tmp.28 = lgetv %y;
+        symbol [ y %tmp.28 241 12 13 ];
+        %tmp.29 = 4;
+        %tmp.30 = add %tmp.28 %tmp.29;
+        invoke %tmp.17 %tmp.18(%tmp.21, %tmp.24, %tmp.27, %tmp.30);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 244 8 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 244 8 10 ];
+        symbol [ drawLine %tmp.32 244 11 19 ];
+        %tmp.32 = getv function %tmp.31 :drawLine;
+        %tmp.33 = lgetv %x;
+        symbol [ x %tmp.33 245 12 13 ];
+        %tmp.34 = 2;
+        %tmp.35 = add %tmp.33 %tmp.34;
+        %tmp.36 = lgetv %y;
+        symbol [ y %tmp.36 246 12 13 ];
+        %tmp.37 = 3;
+        %tmp.38 = add %tmp.36 %tmp.37;
+        %tmp.39 = lgetv %x;
+        symbol [ x %tmp.39 247 12 13 ];
+        %tmp.40 = 4;
+        %tmp.41 = add %tmp.39 %tmp.40;
+        %tmp.42 = lgetv %y;
+        symbol [ y %tmp.42 248 12 13 ];
+        %tmp.43 = 6;
+        %tmp.44 = add %tmp.42 %tmp.43;
+        invoke %tmp.31 %tmp.32(%tmp.35, %tmp.38, %tmp.41, %tmp.44);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_232_37_250_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 252; @symbol_functiondef = [drawBatteryIcon,252,13,28]; @symbol_param<0> = [dc,252,29,31]; @symbol_param<1> = [x,252,33,34]; @symbol_param<2> = [y,252,36,37]; ]
+    function drawBatteryIcon(dc, x, y) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_252_39_267_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 254 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 254 8 10 ];
+        symbol [ drawRectangle %tmp.2 254 11 24 ];
+        %tmp.2 = getv function %tmp.1 :drawRectangle;
+        %tmp.3 = lgetv %x;
+        symbol [ x %tmp.3 255 12 13 ];
+        %tmp.4 = 5;
+        %tmp.5 = sub %tmp.3 %tmp.4;
+        %tmp.6 = lgetv %y;
+        symbol [ y %tmp.6 256 12 13 ];
+        %tmp.7 = 10;
+        %tmp.8 = 5;
+        invoke %tmp.1 %tmp.2(%tmp.5, %tmp.6, %tmp.7, %tmp.8);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 261 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 261 8 10 ];
+        symbol [ fillRectangle %tmp.10 261 11 24 ];
+        %tmp.10 = getv function %tmp.9 :fillRectangle;
+        %tmp.11 = lgetv %x;
+        symbol [ x %tmp.11 262 12 13 ];
+        %tmp.12 = 5;
+        %tmp.13 = add %tmp.11 %tmp.12;
+        %tmp.14 = lgetv %y;
+        symbol [ y %tmp.14 263 12 13 ];
+        %tmp.15 = 1;
+        %tmp.16 = add %tmp.14 %tmp.15;
+        %tmp.17 = 1;
+        %tmp.18 = 3;
+        invoke %tmp.9 %tmp.10(%tmp.13, %tmp.16, %tmp.17, %tmp.18);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_252_39_267_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 269; @symbol_functiondef = [drawSolarIcon,269,13,26]; @symbol_param<0> = [dc,269,27,29]; @symbol_param<1> = [x,269,31,32]; @symbol_param<2> = [y,269,34,35]; ]
+    function drawSolarIcon(dc, x, y) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_269_37_282_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 271 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 271 8 10 ];
+        symbol [ drawCircle %tmp.2 271 11 21 ];
+        %tmp.2 = getv function %tmp.1 :drawCircle;
+        %tmp.3 = lgetv %x;
+        symbol [ x %tmp.3 272 12 13 ];
+        %tmp.4 = lgetv %y;
+        symbol [ y %tmp.4 273 12 13 ];
+        %tmp.5 = 2;
+        %tmp.6 = add %tmp.4 %tmp.5;
+        %tmp.7 = 2;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.6, %tmp.7);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 277 8 ]
+        %tmp.8 = lgetv %dc;
+        symbol [ dc %tmp.8 277 8 10 ];
+        symbol [ drawLine %tmp.9 277 11 19 ];
+        %tmp.9 = getv function %tmp.8 :drawLine;
+        %tmp.10 = lgetv %x;
+        symbol [ x %tmp.10 277 20 21 ];
+        %tmp.11 = lgetv %y;
+        symbol [ y %tmp.11 277 23 24 ];
+        %tmp.12 = 3;
+        %tmp.13 = sub %tmp.11 %tmp.12;
+        %tmp.14 = lgetv %x;
+        symbol [ x %tmp.14 277 30 31 ];
+        %tmp.15 = lgetv %y;
+        symbol [ y %tmp.15 277 33 34 ];
+        %tmp.16 = 1;
+        %tmp.17 = sub %tmp.15 %tmp.16;
+        invoke %tmp.8 %tmp.9(%tmp.10, %tmp.13, %tmp.14, %tmp.17);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 278 8 ]
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 278 8 10 ];
+        symbol [ drawLine %tmp.19 278 11 19 ];
+        %tmp.19 = getv function %tmp.18 :drawLine;
+        %tmp.20 = lgetv %x;
+        symbol [ x %tmp.20 278 20 21 ];
+        %tmp.21 = lgetv %y;
+        symbol [ y %tmp.21 278 23 24 ];
+        %tmp.22 = 5;
+        %tmp.23 = add %tmp.21 %tmp.22;
+        %tmp.24 = lgetv %x;
+        symbol [ x %tmp.24 278 30 31 ];
+        %tmp.25 = lgetv %y;
+        symbol [ y %tmp.25 278 33 34 ];
+        %tmp.26 = 7;
+        %tmp.27 = add %tmp.25 %tmp.26;
+        invoke %tmp.18 %tmp.19(%tmp.20, %tmp.23, %tmp.24, %tmp.27);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 280 8 ]
+        %tmp.28 = lgetv %dc;
+        symbol [ dc %tmp.28 280 8 10 ];
+        symbol [ drawLine %tmp.29 280 11 19 ];
+        %tmp.29 = getv function %tmp.28 :drawLine;
+        %tmp.30 = lgetv %x;
+        symbol [ x %tmp.30 280 20 21 ];
+        %tmp.31 = 5;
+        %tmp.32 = sub %tmp.30 %tmp.31;
+        %tmp.33 = lgetv %y;
+        symbol [ y %tmp.33 280 27 28 ];
+        %tmp.34 = 2;
+        %tmp.35 = add %tmp.33 %tmp.34;
+        %tmp.36 = lgetv %x;
+        symbol [ x %tmp.36 280 34 35 ];
+        %tmp.37 = 3;
+        %tmp.38 = sub %tmp.36 %tmp.37;
+        %tmp.39 = lgetv %y;
+        symbol [ y %tmp.39 280 41 42 ];
+        %tmp.40 = 2;
+        %tmp.41 = add %tmp.39 %tmp.40;
+        invoke %tmp.28 %tmp.29(%tmp.32, %tmp.35, %tmp.38, %tmp.41);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 281 8 ]
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 281 8 10 ];
+        symbol [ drawLine %tmp.43 281 11 19 ];
+        %tmp.43 = getv function %tmp.42 :drawLine;
+        %tmp.44 = lgetv %x;
+        symbol [ x %tmp.44 281 20 21 ];
+        %tmp.45 = 3;
+        %tmp.46 = add %tmp.44 %tmp.45;
+        %tmp.47 = lgetv %y;
+        symbol [ y %tmp.47 281 27 28 ];
+        %tmp.48 = 2;
+        %tmp.49 = add %tmp.47 %tmp.48;
+        %tmp.50 = lgetv %x;
+        symbol [ x %tmp.50 281 34 35 ];
+        %tmp.51 = 5;
+        %tmp.52 = add %tmp.50 %tmp.51;
+        %tmp.53 = lgetv %y;
+        symbol [ y %tmp.53 281 41 42 ];
+        %tmp.54 = 2;
+        %tmp.55 = add %tmp.53 %tmp.54;
+        invoke %tmp.42 %tmp.43(%tmp.46, %tmp.49, %tmp.52, %tmp.55);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_269_37_282_4_stop:
+    }
+    [ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 284; @symbol_functiondef = [drawSunIcon,284,13,24]; @symbol_param<0> = [dc,284,25,27]; @symbol_param<1> = [x,284,29,30]; @symbol_param<2> = [y,284,32,33]; ]
+    function drawSunIcon(dc, x, y) {
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_284_35_297_4_start:
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 286 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 286 8 10 ];
+        symbol [ drawCircle %tmp.2 286 11 21 ];
+        %tmp.2 = getv function %tmp.1 :drawCircle;
+        %tmp.3 = lgetv %x;
+        symbol [ x %tmp.3 287 12 13 ];
+        %tmp.4 = lgetv %y;
+        symbol [ y %tmp.4 288 12 13 ];
+        %tmp.5 = 3;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.5);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 292 8 ]
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 292 8 10 ];
+        symbol [ drawLine %tmp.7 292 11 19 ];
+        %tmp.7 = getv function %tmp.6 :drawLine;
+        %tmp.8 = lgetv %x;
+        symbol [ x %tmp.8 292 20 21 ];
+        %tmp.9 = lgetv %y;
+        symbol [ y %tmp.9 292 23 24 ];
+        %tmp.10 = 6;
+        %tmp.11 = sub %tmp.9 %tmp.10;
+        %tmp.12 = lgetv %x;
+        symbol [ x %tmp.12 292 30 31 ];
+        %tmp.13 = lgetv %y;
+        symbol [ y %tmp.13 292 33 34 ];
+        %tmp.14 = 4;
+        %tmp.15 = sub %tmp.13 %tmp.14;
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.11, %tmp.12, %tmp.15);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 293 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 293 8 10 ];
+        symbol [ drawLine %tmp.17 293 11 19 ];
+        %tmp.17 = getv function %tmp.16 :drawLine;
+        %tmp.18 = lgetv %x;
+        symbol [ x %tmp.18 293 20 21 ];
+        %tmp.19 = lgetv %y;
+        symbol [ y %tmp.19 293 23 24 ];
+        %tmp.20 = 4;
+        %tmp.21 = add %tmp.19 %tmp.20;
+        %tmp.22 = lgetv %x;
+        symbol [ x %tmp.22 293 30 31 ];
+        %tmp.23 = lgetv %y;
+        symbol [ y %tmp.23 293 33 34 ];
+        %tmp.24 = 6;
+        %tmp.25 = add %tmp.23 %tmp.24;
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.21, %tmp.22, %tmp.25);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 295 8 ]
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 295 8 10 ];
+        symbol [ drawLine %tmp.27 295 11 19 ];
+        %tmp.27 = getv function %tmp.26 :drawLine;
+        %tmp.28 = lgetv %x;
+        symbol [ x %tmp.28 295 20 21 ];
+        %tmp.29 = 6;
+        %tmp.30 = sub %tmp.28 %tmp.29;
+        %tmp.31 = lgetv %y;
+        symbol [ y %tmp.31 295 27 28 ];
+        %tmp.32 = lgetv %x;
+        symbol [ x %tmp.32 295 30 31 ];
+        %tmp.33 = 4;
+        %tmp.34 = sub %tmp.32 %tmp.33;
+        %tmp.35 = lgetv %y;
+        symbol [ y %tmp.35 295 37 38 ];
+        invoke %tmp.26 %tmp.27(%tmp.30, %tmp.31, %tmp.34, %tmp.35);
+[ "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc" 296 8 ]
+        %tmp.36 = lgetv %dc;
+        symbol [ dc %tmp.36 296 8 10 ];
+        symbol [ drawLine %tmp.37 296 11 19 ];
+        %tmp.37 = getv function %tmp.36 :drawLine;
+        %tmp.38 = lgetv %x;
+        symbol [ x %tmp.38 296 20 21 ];
+        %tmp.39 = 4;
+        %tmp.40 = add %tmp.38 %tmp.39;
+        %tmp.41 = lgetv %y;
+        symbol [ y %tmp.41 296 27 28 ];
+        %tmp.42 = lgetv %x;
+        symbol [ x %tmp.42 296 30 31 ];
+        %tmp.43 = 6;
+        %tmp.44 = add %tmp.42 %tmp.43;
+        %tmp.45 = lgetv %y;
+        symbol [ y %tmp.45 296 37 38 ];
+        invoke %tmp.36 %tmp.37(%tmp.40, %tmp.41, %tmp.44, %tmp.45);
+C__Users_thoma_OneDrive_Documents_1___Personal_Docs_6___Watch_Faces_and_Data_9___Monkey_C_FenixCrossover_source_FenixCrossoverView_mc_284_35_297_4_stop:
+    }
+}
+[ @file = "C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\source\FenixCrossoverView.mc"; @line = 1; ]
+<init> {
+}

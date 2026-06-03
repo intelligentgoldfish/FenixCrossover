@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\thoma\OneDrive\Documents\1 - Personal Docs\6 - Watch Faces and Data\9 - Monkey C\FenixCrossover\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="c:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverApp.mc" id="2" lineNum="4" parent="globals/FenixCrossoverApp" pc="268435484" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="3" lineNum="10" parent="globals/FenixCrossoverView" pc="268435503" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverApp.mc" id="4" lineNum="10" parent="globals/FenixCrossoverApp" pc="268435522" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverApp.mc" id="4" lineNum="11" parent="globals/FenixCrossoverApp" pc="268435524" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverApp.mc" id="5" lineNum="6" parent="globals/FenixCrossoverApp" pc="268435561" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverApp.mc" id="5" lineNum="7" parent="globals/FenixCrossoverApp" pc="268435563" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="6" lineNum="178" parent="globals/FenixCrossoverView" pc="268435582" symbol="drawSunEvent"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="6" lineNum="180" parent="globals/FenixCrossoverView" pc="268435584" symbol="drawSunEvent"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="6" lineNum="186" parent="globals/FenixCrossoverView" pc="268435608" symbol="drawSunEvent"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="7" lineNum="284" parent="globals/FenixCrossoverView" pc="268435646" symbol="drawSunIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="7" lineNum="286" parent="globals/FenixCrossoverView" pc="268435648" symbol="drawSunIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="7" lineNum="292" parent="globals/FenixCrossoverView" pc="268435669" symbol="drawSunIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="7" lineNum="293" parent="globals/FenixCrossoverView" pc="268435701" symbol="drawSunIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="7" lineNum="295" parent="globals/FenixCrossoverView" pc="268435733" symbol="drawSunIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="7" lineNum="296" parent="globals/FenixCrossoverView" pc="268435765" symbol="drawSunIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="195" parent="globals/FenixCrossoverView" pc="268435798" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="197" parent="globals/FenixCrossoverView" pc="268435802" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="203" parent="globals/FenixCrossoverView" pc="268435823" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="205" parent="globals/FenixCrossoverView" pc="268435830" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="208" parent="globals/FenixCrossoverView" pc="268435846" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="210" parent="globals/FenixCrossoverView" pc="268435861" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="214" parent="globals/FenixCrossoverView" pc="268435874" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="219" parent="globals/FenixCrossoverView" pc="268435902" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="8" lineNum="224" parent="globals/FenixCrossoverView" pc="268435930" symbol="drawRing"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="9" lineNum="232" parent="globals/FenixCrossoverView" pc="268435965" symbol="drawStepsIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="9" lineNum="234" parent="globals/FenixCrossoverView" pc="268435967" symbol="drawStepsIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="9" lineNum="235" parent="globals/FenixCrossoverView" pc="268435994" symbol="drawStepsIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="9" lineNum="237" parent="globals/FenixCrossoverView" pc="268436027" symbol="drawStepsIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="9" lineNum="244" parent="globals/FenixCrossoverView" pc="268436071" symbol="drawStepsIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="10" lineNum="30" parent="globals/FenixCrossoverView" pc="268436116" symbol="onLayout"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="11" lineNum="134" parent="globals/FenixCrossoverView" pc="268436119" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="11" lineNum="136" parent="globals/FenixCrossoverView" pc="268436123" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="11" lineNum="137" parent="globals/FenixCrossoverView" pc="268436147" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="11" lineNum="139" parent="globals/FenixCrossoverView" pc="268436171" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="11" lineNum="141" parent="globals/FenixCrossoverView" pc="268436184" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="12" lineNum="110" parent="globals/FenixCrossoverView" pc="268436219" symbol="drawSolar"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="12" lineNum="114" parent="globals/FenixCrossoverView" pc="268436223" symbol="drawSolar"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="12" lineNum="116" parent="globals/FenixCrossoverView" pc="268436230" symbol="drawSolar"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="12" lineNum="123" parent="globals/FenixCrossoverView" pc="268436262" symbol="drawSolar"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="12" lineNum="125" parent="globals/FenixCrossoverView" pc="268436286" symbol="drawSolar"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="13" lineNum="269" parent="globals/FenixCrossoverView" pc="268436330" symbol="drawSolarIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="13" lineNum="271" parent="globals/FenixCrossoverView" pc="268436332" symbol="drawSolarIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="13" lineNum="277" parent="globals/FenixCrossoverView" pc="268436359" symbol="drawSolarIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="13" lineNum="278" parent="globals/FenixCrossoverView" pc="268436391" symbol="drawSolarIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="13" lineNum="280" parent="globals/FenixCrossoverView" pc="268436423" symbol="drawSolarIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="13" lineNum="281" parent="globals/FenixCrossoverView" pc="268436467" symbol="drawSolarIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="14" lineNum="252" parent="globals/FenixCrossoverView" pc="268436512" symbol="drawBatteryIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="14" lineNum="254" parent="globals/FenixCrossoverView" pc="268436514" symbol="drawBatteryIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="14" lineNum="261" parent="globals/FenixCrossoverView" pc="268436546" symbol="drawBatteryIcon"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="54" parent="globals/FenixCrossoverView" pc="268436585" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="56" parent="globals/FenixCrossoverView" pc="268436589" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="58" parent="globals/FenixCrossoverView" pc="268436606" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="60" parent="globals/FenixCrossoverView" pc="268436616" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="62" parent="globals/FenixCrossoverView" pc="268436623" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="64" parent="globals/FenixCrossoverView" pc="268436639" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="65" parent="globals/FenixCrossoverView" pc="268436650" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="68" parent="globals/FenixCrossoverView" pc="268436660" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="15" lineNum="75" parent="globals/FenixCrossoverView" pc="268436686" symbol="drawSteps"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="16" lineNum="86" parent="globals/FenixCrossoverView" pc="268436711" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="16" lineNum="88" parent="globals/FenixCrossoverView" pc="268436715" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="16" lineNum="90" parent="globals/FenixCrossoverView" pc="268436738" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="16" lineNum="92" parent="globals/FenixCrossoverView" pc="268436757" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="16" lineNum="99" parent="globals/FenixCrossoverView" pc="268436783" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="16" lineNum="101" parent="globals/FenixCrossoverView" pc="268436807" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="17" lineNum="26" parent="globals/FenixCrossoverView" pc="268436851" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="17" lineNum="27" parent="globals/FenixCrossoverView" pc="268436853" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="33" parent="globals/FenixCrossoverView" pc="268436872" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="35" parent="globals/FenixCrossoverView" pc="268436876" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="40" parent="globals/FenixCrossoverView" pc="268436898" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="42" parent="globals/FenixCrossoverView" pc="268436910" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="44" parent="globals/FenixCrossoverView" pc="268436927" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="45" parent="globals/FenixCrossoverView" pc="268436941" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="46" parent="globals/FenixCrossoverView" pc="268436955" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="48" parent="globals/FenixCrossoverView" pc="268436969" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="49" parent="globals/FenixCrossoverView" pc="268436983" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="18" lineNum="50" parent="globals/FenixCrossoverView" pc="268436999" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="19" lineNum="150" parent="globals/FenixCrossoverView" pc="268437014" symbol="drawDate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="19" lineNum="152" parent="globals/FenixCrossoverView" pc="268437018" symbol="drawDate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="19" lineNum="157" parent="globals/FenixCrossoverView" pc="268437055" symbol="drawDate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="19" lineNum="164" parent="globals/FenixCrossoverView" pc="268437219" symbol="drawDate"/>
+        <entry filename="C:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\source\\FenixCrossoverView.mc" id="19" lineNum="169" parent="globals/FenixCrossoverView" pc="268437262" symbol="drawDate"/>
+        <entry filename="c:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268437297" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268437309" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\thoma\\OneDrive\\Documents\\1 - Personal Docs\\6 - Watch Faces and Data\\9 - Monkey C\\FenixCrossover\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268437462" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="17" method="true" symbol="drawSunEvent"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="11" method="true" symbol="drawDate"/>
+        <entry id="16" method="true" symbol="drawStepsIcon"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="18" method="true" symbol="drawSunIcon"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="19" method="true" symbol="drawTime"/>
+        <entry field="true" id="21" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="15" method="true" symbol="drawSteps"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="9" method="true" symbol="drawBattery"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="10" method="true" symbol="drawBatteryIcon"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="13" method="true" symbol="drawSolar"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="14" method="true" symbol="drawSolarIcon"/>
+        <entry field="true" id="20" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="6" object="true" symbol="FenixCrossoverApp"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="7" object="true" symbol="FenixCrossoverView"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="12" method="true" symbol="drawRing"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435645" name="dc" stackId="1" startPc="268435582"/>
+        <entry arg="true" endPc="268435797" name="dc" stackId="1" startPc="268435646"/>
+        <entry arg="true" endPc="268435797" name="x" stackId="2" startPc="268435646"/>
+        <entry arg="true" endPc="268435797" name="y" stackId="3" startPc="268435646"/>
+        <entry arg="true" endPc="268435964" name="dc" stackId="1" startPc="268435798"/>
+        <entry arg="true" endPc="268435964" name="x" stackId="2" startPc="268435798"/>
+        <entry arg="true" endPc="268435964" name="y" stackId="3" startPc="268435798"/>
+        <entry arg="true" endPc="268435964" name="progress" stackId="4" startPc="268435798"/>
+        <entry endPc="268435963" name="segments" stackId="5" startPc="268435802"/>
+        <entry endPc="268435963" name="active" stackId="6" startPc="268435802"/>
+        <entry endPc="268435963" name="i" stackId="7" startPc="268435861"/>
+        <entry endPc="268435950" name="angle" stackId="8" startPc="268435861"/>
+        <entry endPc="268435950" name="px" stackId="9" startPc="268435861"/>
+        <entry endPc="268435950" name="py" stackId="10" startPc="268435861"/>
+        <entry arg="true" endPc="268436115" name="dc" stackId="1" startPc="268435965"/>
+        <entry arg="true" endPc="268436115" name="x" stackId="2" startPc="268435965"/>
+        <entry arg="true" endPc="268436115" name="y" stackId="3" startPc="268435965"/>
+        <entry arg="true" endPc="268436218" name="dc" stackId="1" startPc="268436119"/>
+        <entry arg="true" endPc="268436218" name="now" stackId="2" startPc="268436119"/>
+        <entry endPc="268436217" name="hh" stackId="3" startPc="268436123"/>
+        <entry endPc="268436217" name="mm" stackId="4" startPc="268436123"/>
+        <entry endPc="268436217" name="txt" stackId="5" startPc="268436123"/>
+        <entry arg="true" endPc="268436329" name="dc" stackId="1" startPc="268436219"/>
+        <entry endPc="268436328" name="solar" stackId="2" startPc="268436223"/>
+        <entry arg="true" endPc="268436511" name="dc" stackId="1" startPc="268436330"/>
+        <entry arg="true" endPc="268436511" name="x" stackId="2" startPc="268436330"/>
+        <entry arg="true" endPc="268436511" name="y" stackId="3" startPc="268436330"/>
+        <entry arg="true" endPc="268436584" name="dc" stackId="1" startPc="268436512"/>
+        <entry arg="true" endPc="268436584" name="x" stackId="2" startPc="268436512"/>
+        <entry arg="true" endPc="268436584" name="y" stackId="3" startPc="268436512"/>
+        <entry arg="true" endPc="268436710" name="dc" stackId="1" startPc="268436585"/>
+        <entry endPc="268436709" name="info" stackId="2" startPc="268436589"/>
+        <entry endPc="268436709" name="steps" stackId="3" startPc="268436589"/>
+        <entry endPc="268436709" name="goal" stackId="4" startPc="268436589"/>
+        <entry endPc="268436709" name="progress" stackId="5" startPc="268436589"/>
+        <entry arg="true" endPc="268436850" name="dc" stackId="1" startPc="268436711"/>
+        <entry endPc="268436849" name="battery" stackId="2" startPc="268436715"/>
+        <entry endPc="268436849" name="progress" stackId="3" startPc="268436715"/>
+        <entry arg="true" endPc="268437013" name="dc" stackId="1" startPc="268436872"/>
+        <entry endPc="268437012" name="now" stackId="2" startPc="268436876"/>
+        <entry arg="true" endPc="268437296" name="dc" stackId="1" startPc="268437014"/>
+        <entry endPc="268437295" name="m" stackId="2" startPc="268437018"/>
+        <entry endPc="268437295" name="months" stackId="3" startPc="268437018"/>
+        <entry endPc="268437295" name="txt" stackId="4" startPc="268437018"/>
+        <entry arg="true" endPc="268437478" name="dc" stackId="1" startPc="268437297"/>
+        <entry endPc="268437478" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437309"/>
+    </localVars>
+    <deviceInfo deviceVersion="45fe3cbb0de8ea0a70e12628d2697915f1272301" partNumber="006-B4155-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="126" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/FenixCrossoverApp" offset="181" parentId="globals" symbolId="FenixCrossoverApp" type="class"/>
+        <dataEntry label="globals/FenixCrossoverView" offset="236" parentId="globals" symbolId="FenixCrossoverView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="387" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="426" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="465" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="Rez" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435502" name="&lt;init&gt;" parent="FenixCrossoverApp" startPc="268435484">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="FenixCrossoverView" startPc="268435503">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="getInitialView" parent="FenixCrossoverApp" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435581" name="initialize" parent="FenixCrossoverApp" startPc="268435561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435645" name="drawSunEvent" parent="FenixCrossoverView" startPc="268435582">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435797" name="drawSunIcon" parent="FenixCrossoverView" startPc="268435646">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435964" name="drawRing" parent="FenixCrossoverView" startPc="268435798">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="progress"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436115" name="drawStepsIcon" parent="FenixCrossoverView" startPc="268435965">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436118" name="onLayout" parent="FenixCrossoverView" startPc="268436116">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436218" name="drawTime" parent="FenixCrossoverView" startPc="268436119">
+            <param id="dc"/>
+            <param id="now"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436329" name="drawSolar" parent="FenixCrossoverView" startPc="268436219">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436511" name="drawSolarIcon" parent="FenixCrossoverView" startPc="268436330">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436584" name="drawBatteryIcon" parent="FenixCrossoverView" startPc="268436512">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436710" name="drawSteps" parent="FenixCrossoverView" startPc="268436585">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436850" name="drawBattery" parent="FenixCrossoverView" startPc="268436711">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436871" name="initialize" parent="FenixCrossoverView" startPc="268436851">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437013" name="onUpdate" parent="FenixCrossoverView" startPc="268436872">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437296" name="drawDate" parent="FenixCrossoverView" startPc="268437014">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437478" name="WatchFace" parent="Layouts" startPc="268437297">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
